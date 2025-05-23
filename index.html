@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Westnile Space - Classic Puzzle & Arcade Games</title>
+	<link rel="shortcut icon" href="./assets/icon.svg" type="image/x-icon">
+	<link rel="icon" href="/assets/icon.svg" type="image/x-icon">
+    <meta name="description" content="Welcome to Westnile Space! Dive into a collection of beloved classic games like Candy Crush, Breakout, Minesweeper, Tower Blocks, and Ping Pong. Enjoy timeless fun and challenge your skills with our free online arcade.">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #89CFF0, #A7D7EF);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .welcome-icon {
+            margin-bottom: 30px;
+        }
+
+        .game-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+            margin-bottom: 30px; /* Added margin for footer spacing */
+        }
+
+        .game-card {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+        }
+
+        .game-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .game-card h2 {
+            color: #007BFF;
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .game-card p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .game-card a {
+            display: inline-block;
+            background-color: #FF6347;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .game-card a:hover {
+            background-color: #E64A2B;
+        }
+
+        .game-icon {
+            margin-bottom: 15px;
+        }
+
+        .footer-text {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to Westnile Space!</h1>
+        <div class="welcome-icon">
+            <svg width="100" height="100" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4ZM10 10V14H14V10H10Z" fill="#4CAF50"/>
+                <circle cx="12" cy="12" r="3" fill="#FFD700"/>
+                <path d="M18 12C18 15.3137 15.3137 18 12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12Z" fill="#00BFFF"/>
+            </svg>
+        </div>
+
+        <p>Dive into a world of classic and exciting games!</p>
+
+        <div class="game-list">
+            <div class="game-card">
+                <div class="game-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L9.19194 7.19194L4 8L7.19194 9.19194L8 14L9.19194 10.8081L14 12L10.8081 9.19194L12 4L14.8081 9.19194L20 8L16.8081 9.19194L16 14L14.8081 10.8081L12 16L9.19194 10.8081L4 12L7.19194 14.8081L8 20L9.19194 15.1919L14 16L10.8081 14.8081L12 10L14.8081 15.1919L20 14L16.8081 15.1919L16 20L14.8081 16.8081L12 22Z" fill="#FF69B4"/>
+                        <circle cx="12" cy="12" r="4" fill="#8A2BE2"/>
+                    </svg>
+                </div>
+                <h2>Candy Crush</h2>
+                <p>Enjoy the classic match-three puzzle game where you swap colored candies to create matches and clear levels.</p>
+                <a href="games/Candy-Crash/index.html">Play Now!</a>
+            </div>
+
+            <div class="game-card">
+                <div class="game-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="4" y="18" width="16" height="2" rx="1" fill="#FF4500"/>
+                        <circle cx="12" cy="12" r="3" fill="#00CED1"/>
+                        <rect x="5" y="4" width="4" height="2" rx="0.5" fill="#32CD32"/>
+                        <rect x="10" y="4" width="4" height="2" rx="0.5" fill="#FFD700"/>
+                        <rect x="15" y="4" width="4" height="2" rx="0.5" fill="#8A2BE2"/>
+                        <rect x="5" y="7" width="4" height="2" rx="0.5" fill="#32CD32"/>
+                        <rect x="10" y="7" width="4" height="2" rx="0.5" fill="#FFD700"/>
+                        <rect x="15" y="7" width="4" height="2" rx="0.5" fill="#8A2BE2"/>
+                    </svg>
+                </div>
+                <h2>Breakout</h2>
+                <p>Relive the arcade classic where you use a paddle to bounce a ball and break bricks, aiming for a high score.</p>
+                <a href="games/Breakout/index.html">Play Now!</a>
+            </div>
+
+            <div class="game-card">
+                <div class="game-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="4" y="4" width="16" height="16" rx="2" fill="#ADD8E6"/>
+                        <path d="M12 7V17M7 12H17M12 7L10 9M12 7L14 9M12 17L10 15M12 17L14 15M7 12L9 10M7 12L9 14M17 12L15 10M17 12L15 14" stroke="#FF4500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="12" cy="12" r="2" fill="#FF4500"/>
+                    </svg>
+                </div>
+                <h2>Minesweeper</h2>
+                <p>Exercise your logical thinking with this puzzle game where you avoid hidden mines and uncover safe tiles.</p>
+                <a href="games/Minesweeper/index.html">Play Now!</a>
+            </div>
+
+            <div class="game-card">
+                <div class="game-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="7" y="16" width="10" height="4" rx="1" fill="#4CAF50"/>
+                        <rect x="5" y="12" width="14" height="4" rx="1" fill="#FFD700"/>
+                        <rect x="8" y="8" width="8" height="4" rx="1" fill="#FF6347"/>
+                        <rect x="6" y="4" width="12" height="4" rx="1" fill="#00BFFF"/>
+                    </svg>
+                </div>
+                <h2>Tower Blocks</h2>
+                <p>Build a tower by stacking blocks as high as possible without letting them topple over in this physics-based game.</p>
+                <a href="games/Tower-Blocks/index.html">Play Now!</a>
+            </div>
+
+            <div class="game-card">
+                <div class="game-icon">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM12 4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4Z" fill="#20B2AA"/>
+                        <circle cx="9" cy="9" r="2" fill="#FF6347"/>
+                        <circle cx="15" cy="15" r="2" fill="#FF6347"/>
+                        <line x1="6" y1="18" x2="18" y2="6" stroke="#20B2AA" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h2>Ping Pong</h2>
+                <p>Experience the thrill of table tennis as you compete against an AI opponent in this classic sports game.</p>
+                <a href="games/Ping-Pong/index.html">Play Now!</a>
+            </div>
+        </div>
+
+        <footer class="footer-text">
+            Another Prince Nonsenses
+        </footer>
+    </div>
+
+</body>
+</html>
